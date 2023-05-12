@@ -1,0 +1,117 @@
+
+*{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+@font-face {
+    font-family: Butler;
+    src: url(https://fabiandesmet.com/portfolio/butler-font/#:~:text=Butler%20is%20a%20free%20serif,adding%20an%20extra%20stencil%20family.);
+}
+div.page{
+    text-align: center;
+
+}
+div.Title{
+
+    text-align: center
+}
+h1{
+    font-family: Butler;
+    text-align: center;
+    font-size: 92px;
+    font-weight:300;
+    margin-bottom: 40px;
+    letter-spacing: 10px;
+    margin-left: none;
+	margin-top: 10px;
+	padding-top: 10px;
+	color: rgba(0, 0, 0, 1);
+
+}
+h2{
+    font-family: Butler;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    padding-top: none;
+    margin-top: -45px;
+    letter-spacing: 15px;
+    margin-left: none;
+	color: rgba(0,0,0, 1);
+}
+hr.new1{
+    width: 400px;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+}
+div.budget{
+    font-family: Butler;
+	padding-right: 20%;
+	
+}
+h3{
+    font-weight: 100;
+    text-align: right;
+ margin-right: 10px;
+    font-size: 20px
+    ;
+}
+.malta{
+    width: 1600px;
+    height: 2000px;
+    opacity: 0.2;
+}
+.hatter{
+    width: 50%;
+}
+.text {
+    text-align: justify;
+    padding-inline: 2%;
+}
+.homebar > a{
+
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Butler;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    float: left;
+    margin-bottom: 5px;
+	color: rgba(0, 0, 0, .8);
+}
+.homebar > a:hover{
+    background-color: black;
+    color: white;
+}
+.homebar{
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+	border-top:1px solid rgba(0, 0, 0, .2);
+    margin-inline: 5px;
+    /* line-height:auto; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-left:20px ;
+    /* gap: 20px; */
+
+}
+.cim{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 30px;
+	
+}
+.album-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+h3{
+    margin-top: 5rem;
+}
